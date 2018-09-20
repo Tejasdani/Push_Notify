@@ -82,4 +82,11 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="phonegap-plugin-push" spec="^2.2.3">
+        <variable name="SENDER_ID" value="1080927702173" />
+    </plugin>
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+    </platform>
+    <engine name="android" spec="7.0.0" />
 </widget>
